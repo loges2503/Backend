@@ -13,9 +13,14 @@ const tasks = [
     },
     {
         day: 3,
-        title: "JavaScript Loops",
-        description: "Print numbers from 1 to 100 using a for loop.",
+        title: "Closure Function",
+        description: "Used to access the private variable even after the execution ",
         solution: "day3.html"
+    },{
+        day: 4,
+        title: "Higher Order Function",
+        description: " Used  to return the function ",
+        solution: "day4.html"
     }
 ];
 
