@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    h1 {
+      text-align: center;
+    }
+  </style>
+  <body>
+    <h1>Higher Order Function</h1>
+
+    <script>
+      console.log("Problem 1");
+
+      function createEmployee() {
+        let salary = 20000;
+        return (amount) => {
+          salary += amount;
+          return salary;
+        };
+      }
+      let updateSalary = createEmployee();
+      console.log(updateSalary(5000));
+
+      console.log(updateSalary(3000));
+
+      console.log(updateSalary(2000));
+
+      
+
+      console.log("Problem 2");
+
+      function createStock() {
+        let stock = 10;
+
+        return {
+          addStock: (quantity) => {
+            stock += quantity;
+            console.log("Stock:", stock);
+          },
+
+          sellProduct: (quantity) => {
+            if (quantity <= stock) {
+              stock -= quantity;
+              console.log("Stock:", stock);
+            } else {
+              console.log("Not enough stock available.");
+            }
+          },
+        };
+      }
+
+      let product = createStock();
+
+      product.addStock(5);
+      product.sellProduct(3);
+      product.addStock(2);
+      product.sellProduct(4);
+    </script>
+  </body>
+</html>

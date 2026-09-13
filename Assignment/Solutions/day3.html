@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    h1 {
+      text-align: center;
+    }
+  </style>
+  <body>
+    <h1>Closure Functions</h1>
+
+    <script>
+        console.log("problem 1");
+      function createBankAccount() {
+        let balance = 5000;
+        return function checkBalance() {
+          console.log(balance);
+        };
+      }
+      let account = createBankAccount();
+      account();
+
+      let balance = 100000;
+      
+      console.log(balance);
+      
+      
+console.log("problem 2");
+      function createAccount() {
+        let balances = 1000;
+        function deposit(amount) {
+          balances += amount;
+        }
+        function getBalance() {
+          console.log(balances);
+        }
+        return {
+          deposit,
+          getBalance,
+        };
+      }
+
+      let accounts = createAccount();
+
+      accounts.deposit(500);
+
+      accounts.deposit(200);
+
+      accounts.getBalance();
+
+      console.log("problem 3");
+
+      function createCounter() {
+        let count = 0;
+
+        function increment() {
+          count++;
+        }
+
+        function decrement() {
+          count--;
+        }
+
+        function getCount() {
+          console.log("Counter:", count);
+        }
+
+        return {
+          increment,
+          decrement,
+          getCount,
+        };
+      }
+
+      const counter = createCounter();
+
+      counter.increment();
+      counter.increment();
+      counter.increment();
+
+      counter.decrement();
+
+      counter.getCount();
+
+      let count = 100;
+
+      console.log("Outside Count:", count);
+
+      counter.getCount();
+
+      console.log("problem 4");
+
+      function createEmployee(name, initialSalary) {
+        let salary = initialSalary;
+
+        function getName() {
+          return name;
+        }
+        function getSalary() {
+          return salary;
+        }
+        function increaseSalary($amount) {
+          if ($amount > 0) {
+            salary += $amount;
+          } else {
+            console.log("cant increase negative salary");
+          }
+
+          console.log("Increased Salary", salary);
+        }
+        return {
+          getName,
+          getSalary,
+          increaseSalary,
+        };
+      }
+      let employee = createEmployee("Arun", 25000);
+      employee.increaseSalary(5000);
+
+      console.log(employee.getName());
+
+      console.log(employee.getSalary());
+
+      let salary = 100000;
+
+      console.log("Outside Salary:", salary);
+
+      console.log("Employee Salary:", employee.getSalary());
+    </script>
+  </body>
+</html>
