@@ -21,6 +21,12 @@ const tasks = [
         title: "Higher Order Function",
         description: " Used  to return the function ",
         solution: "day4.html"
+    },{
+        day: 5,
+        title: "Array Basics",
+        description: "Create ,Access,Nested Arrray , adding two elements in array,accessing second_last element  ",
+        solution: "day5.html"
+
     }
 ];
 

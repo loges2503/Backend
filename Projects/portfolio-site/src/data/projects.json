@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Elegant Portfolio",
+    "description": "A modern, responsive portfolio built with React, Vite, and Tailwind CSS. Showcases smooth animations and glassmorphism.",
+    "image": "https://via.placeholder.com/600x400?text=Portfolio",
+    "technologies": ["React", "Tailwind CSS", "Framer Motion", "Vite"],
+    "githubUrl": "https://github.com/yourusername/portfolio-site",
+    "liveUrl": "https://yourusername.vercel.app"
+  },
+  {
+    "title": "AI Dashboard",
+    "description": "Dashboard integrating AI APIs to visualize data insights in real time.",
+    "image": "https://via.placeholder.com/600x400?text=AI+Dashboard",
+    "technologies": ["React", "Node.js", "Express", "OpenAI API"],
+    "githubUrl": "https://github.com/yourusername/ai-dashboard",
+    "liveUrl": "https://ai-dashboard.example.com"
+  }
+]

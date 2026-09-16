@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        h1{
+            text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>ARRAY BASICS </h1>
+    <script>
+      // task one
+      let student_names = ["Loges", "Lalli", "Boomi", "Gayathri", "Priya"];
+
+      console.log("Task one output:");
+      console.log("firstname:", student_names[0]);
+      console.log("Second name:", student_names[2]);
+      console.log("Last name:", student_names[student_names.length - 1]);
+
+      //    task two
+      let Product_Price = [1500, 2500, 3500, 4500, 5500];
+      console.log("Task Two Outputs");
+      console.log(Product_Price[0]);
+      console.log(Product_Price[2]);
+      console.log(Product_Price[Product_Price.length - 1]); //Product_Price.length-1 holds only iindex position not the value
+      let add = Product_Price[0] + Product_Price[4];
+      console.log("Total of first and last value: " + add);
+
+      //   task three
+
+      let course = ["HTML", "CSS", "JavaScript", "React", "Node"];
+      console.log("Task Three Outputs");
+
+      console.log(course[2]);
+      console.log(course[3]);
+      console.log(course[course.length - 1]);
+
+      // task four
+      let data = [
+        ["Arun", 80],
+                                //nested array
+        ["Bala", 75],
+
+        ["Kumar", 90],
+      ];
+      console.log("Task four outputs");
+      console.log(data[0][0]);
+      console.log(data[0][1]);
+      console.log(data[1][0]);
+      console.log(data[2][1]);
+    
+
+      // task five
+      let numbers = [10, 20, 30, 40, 50];
+      console.log("Task five outputs");
+      let second=numbers[1]
+    //   console.log(second);
+      let second_last=numbers[numbers.length-2];
+    //   console.log(second_last);
+      let addition=numbers[1] + numbers[numbers.length-2];
+      console.log(addition);
+      
+      
+      
+
+      
+
+      
+      
+      
+    </script>
+  </body>
+</html>
