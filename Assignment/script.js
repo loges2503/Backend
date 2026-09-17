@@ -27,6 +27,12 @@ const tasks = [
         description: "Create ,Access,Nested Arrray , adding two elements in array,accessing second_last element  ",
         solution: "day5.html"
 
+    },{
+        day: 6,
+        title: "Object Methods",
+        description: "" ,
+        solution: "day6.html"
+
     }
 ];
 
