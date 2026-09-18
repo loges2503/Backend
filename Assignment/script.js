@@ -30,8 +30,14 @@ const tasks = [
     },{
         day: 6,
         title: "Object Methods",
-        description: "" ,
+        description: "Map filter Reduce find " ,
         solution: "day6.html"
+
+    },{
+        day: 7,
+        title: "Asyc and Sync",
+        description: "Callback Promises Asyn Await" ,
+        solution: "day7.html"
 
     }
 ];
