@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    h1 {
+      text-align: center;
+    }
+  </style>
+  <body>
+    <h1>Logical and Business Logics</h1>
+    <script>
+      // task one
+      console.log("Task 1");
+
+      const customerName = "Priya";
+      let unitsConsumed = 250;
+      let rate;
+      let electricity_bill;
+      if (unitsConsumed > 1 && unitsConsumed < 100) {
+        rate = 2;
+      } else if (unitsConsumed <= 200) {
+        rate = 3;
+      } else if (unitsConsumed > 200) {
+        rate = 5;
+      }
+      electricity_bill = unitsConsumed * rate;
+      console.log("customer name: " + customerName);
+      console.log("units:", unitsConsumed);
+      console.log("electricity bill =", electricity_bill);
+
+      // task two
+      console.log("Task 2");
+
+      let balance = 15000;
+      let withdraw = 4000;
+
+      if (withdraw > 0) {
+        if (withdraw % 500 === 0) {
+          balance = balance - withdraw;
+          console.log("Amount deducted", balance);
+
+          if (withdraw < balance) {
+            console.log("Invalid amount");
+          } else {
+            console.log("Invalid");
+          }
+        }
+      }
+      //   Task 3
+      console.log("Task 3");
+  
+
+    let correctPin = 1234;
+      let attempts ;
+      let enterdPin=1234;
+      for(attempts=1;attempts<=3;attempts++){
+        if (enterdPin === correctPin) {
+            console.log("Login Successful");
+            break;
+            
+        }else{
+            console.log("Account Blocked");
+            
+        }
+      }
+    //   task 4
+    console.log("Task 4");
+    let productPrice = 250;
+    for(let quantity = 1;quantity <=5;quantity++){
+        let totalPrice = productPrice * quantity;
+        console.log("Quantity " + quantity + " =" + totalPrice);
+        
+    }
+    
+
+    </script>
+  </body>
+</html>
