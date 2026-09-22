@@ -1,0 +1,33 @@
+.juice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.juice img {
+  border-radius: 12px;
+}
+.juice img:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+html,
+body,
+#root {
+  height: 100%;
+}
+.app {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
