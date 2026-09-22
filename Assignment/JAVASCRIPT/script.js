@@ -39,11 +39,17 @@ const tasks = [
         description: "Callback Promises Asyn Await" ,
         solution: "day7.html"
 
-    },,{
+    },{
         day: 8,
         title: "Logical and bussiness Logics ",
         description: "variables to async/ await" ,
         solution: "day8.html"
+
+    },{
+        day: 9,
+        title: " REACT - Class Component ",
+        description: "Website creation using  5 Class Component" ,
+        solution: "day9.html"
 
     }
 ];
