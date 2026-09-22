@@ -1,7 +1,7 @@
 import {Component} from "react";
-import Orange from "../assets/orange.png";
-import Pineapple from "../assets/pineapple.png";
-import Mango from "../assets/mango.png";
+import Orange from "../assets/Orange.png";
+import Pineapple from "../assets/Pineapple.png";
+import Mango from "../assets/Mango.png";
 
 
 
