@@ -51,6 +51,10 @@ const tasks = [
         description: "Website creation using  5 Class Component" ,
         solution: "day9.html"
 
+    },{  day:10,
+        title:"Functional Component",
+        description:"Single ,Multi,Nested Components ",
+        solution:"day10.html"
     }
 ];
 
