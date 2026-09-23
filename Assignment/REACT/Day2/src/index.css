@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+*{
+  margin: 0px;
+  border: 0px;
+
+}
+.anchor{
+  background-color: rgb(235, 226, 227);
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  padding: 6px;
+  
+}
+.Home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  font-weight: 1000;
+  margin-top: 100px;
+  color: rgb(159, 81, 231);
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.About{
+  background-color: beige;
+  margin-top: 40px;
+  padding: 20px;
+}
+.footer{
+  text-align: center;
+  padding: 20px;
+  margin-top: 80px;
+}
