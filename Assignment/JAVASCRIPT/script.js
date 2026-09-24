@@ -55,6 +55,10 @@ const tasks = [
         title:"Functional Component",
         description:"Single ,Multi,Nested Components ",
         solution:"day10.html"
+    },{  day:11,
+        title:"Project using Tailwind css",
+        description: "Tailwind css Basics with simple react project ",
+        solution:"day 11.html"
     }
 ];
 
