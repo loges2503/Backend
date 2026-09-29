@@ -59,10 +59,14 @@ const tasks = [
         title:"Project using Tailwind css",
         description: "Tailwind css Basics with simple react project ",
         solution:"day 11.html"
-    },,{  day:12,
+    },{  day:12,
         title:"Rendering Methods",
         description: "Primitive and Non Primitive ",
         solution:"day 12.html"
+    },{  day:13,
+        title:"Questions ",
+        description: "React , JS ,Dom  ",
+        solution:"day 13.html"
     }
 ];
 
