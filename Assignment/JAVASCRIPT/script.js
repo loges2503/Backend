@@ -75,6 +75,10 @@ const tasks = [
         title:"Render and Hooks",
         description: "UseState"  ,
         solution:"day_15.html"
+    },{  day:16,
+        title:"Array & Object ",
+        description: " Update  and Change using UseState"  ,
+        solution:"day_16.html"
     }
 ];
 
