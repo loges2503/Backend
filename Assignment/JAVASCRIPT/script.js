@@ -79,6 +79,10 @@ const tasks = [
         title:"Array & Object ",
         description: " Update  and Change using UseState"  ,
         solution:"day_16.html"
+    },{  day:17,
+        title:"React Rendering ",
+        description: " show Add Update"  ,
+        solution:"day_17.html"
     }
 ];
 
