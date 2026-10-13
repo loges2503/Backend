@@ -83,6 +83,10 @@ const tasks = [
         title:"React Rendering ",
         description: " show Add Update"  ,
         solution:"day_17.html"
+    },{  day:18,
+        title:"Form Handling ",
+        description: " CRUD "  ,
+        solution:"day_18.html"
     }
 ];
 
