@@ -5,8 +5,7 @@ const TaskOne = () => {
     const[salary,setSalary]=useState(25000)
     const increase=()=>{
         setSalary((p)=> p + 5000)
-    }
-    
+    } 
   return (
     <div className="bg-amber-200 flex gap-10 p-10">
       <h1>Task One</h1>
@@ -17,5 +16,4 @@ const TaskOne = () => {
     </div>
   )
 }
-
 export default TaskOne

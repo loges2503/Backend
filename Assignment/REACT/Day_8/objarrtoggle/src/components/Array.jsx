@@ -12,9 +12,7 @@ const Array = () => {
         
        { arr.map((e,i)=>{
         i===2 ? "Advance JS": e
-       return <p key={i}>{i === 2 ? "Advanced JS": e} </p>
-            
-
+       return <p key={i}>{i === 2 ? "Advanced JS": e}</p> 
         })}
 
         <button className="bg-blue-950 p-1 text-white rounded " onClick={handleClick}>Add React</button>

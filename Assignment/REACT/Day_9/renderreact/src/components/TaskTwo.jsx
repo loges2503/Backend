@@ -3,17 +3,15 @@ import { useState } from "react"
 const TaskTwo = () => {
     const[course,setCourse]=useState(["HTML", "CSS", "JavaScript"])
     const copy=[...course]
-    const Add=()=>{
+    const Add = ()=>{
         setCourse((p)=>
            [...p,"React"]
         )
     }
-    const update=()=>{
+    const update = ()=>{
       setCourse(copy.map((e,i)=>(
         [e === "CSS" ? "Advanced Css" : e]
-
       )))
-
     }
   return (
     <div className="bg-grey-200 flex gap-10 p-10">

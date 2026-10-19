@@ -87,6 +87,14 @@ const tasks = [
         title:"Form Handling ",
         description: " CRUD "  ,
         solution:"day_18.html"
+    },{  day:19,
+        title:"Form Handling ",
+        description: " Toggle Like  "  ,
+        solution:"day_19.html"
+    },{  day:20,
+        title:"Form Handling ",
+        description: "Timer  "  ,
+        solution:"day_20.html"
     }
 ];
 
