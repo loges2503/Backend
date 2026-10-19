@@ -6,9 +6,10 @@ const TaskTwo = () => {
     setLiked((p)=> !p)
   }
   return (
-    <div>
-      <h1>My Post</h1>
-  <button onClick={handleClick}>  {isLiked ? "Liked":"Like"}</button>    
+    <div className=" bg-amber-100 flex flex-col  justify-center items-center p-3 my-5 gap-y-4">
+      <h1><strong>Task Two</strong></h1>
+      <h1 >My Post</h1>
+  <button className="bg-blue-500 p-2 border rounded" onClick={handleClick}>  {isLiked ? "Liked":"Like"}</button>    
     </div>
   )
 }

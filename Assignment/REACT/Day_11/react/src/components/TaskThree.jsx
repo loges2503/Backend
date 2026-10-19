@@ -16,13 +16,14 @@ const handleCity=()=>{
 setUser({...user,city:"Banglore"})
 }
   return (
-    <div>
+    <div className=" bg-amber-100 flex flex-col  justify-center items-center my-5 gap-y-4 p-3">
+      <strong>Task Three</strong>
       <h1>{user.name}</h1>
       <h1>{user.age}</h1>
       <h1>{user.city}</h1>
-      <button onClick={handleClick}>Change Name</button>
-      <button onClick={handleCount}>Increase Count</button>
-      <button onClick={handleCity}>Change City</button>
+      <button className="bg-blue-500 p-2 border rounded" onClick={handleClick}>Change Name</button>
+      <button className="bg-blue-500 p-2 border rounded" onClick={handleCount}>Increase Count</button>
+      <button className="bg-blue-500 p-2 border rounded" onClick={handleCity}>Change City</button>
 
     </div>
   )

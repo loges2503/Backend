@@ -1,3 +1,4 @@
+import TaskFive from "./components/TaskFive"
 import TaskFour from "./components/TaskFour"
 import TaskOne from "./components/TaskOne"
 import TaskThree from "./components/TaskThree"
@@ -10,6 +11,7 @@ const App = () => {
       <TaskTwo/>
       <TaskThree/>
       <TaskFour/>
+      <TaskFive/>
     </div>
   )
 }

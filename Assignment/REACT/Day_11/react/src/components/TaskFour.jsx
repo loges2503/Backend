@@ -15,13 +15,14 @@ setProducts(products.map(product =>
 }
 
   return (
-    <div>
+    <div className=" bg-amber-100 flex flex-col  justify-center items-center my-5 gap-y-4 p-3">
+      <strong>Task Four</strong>
       {products.map((e,i)=>(
         <div key={e.id}>
            <h1>{e.name}</h1>
         <h1>{e.price}</h1>
         <h1>{e.inStock ? "In Stock " :"Out of Stock" }</h1>
-        <button onClick={()=>handleUpdate(e.id)}>Toggle Stock</button>
+        <button className="bg-blue-500 p-2 border rounded" onClick={()=>handleUpdate(e.id)}>Toggle Stock</button>
         </div>
        
       ))}

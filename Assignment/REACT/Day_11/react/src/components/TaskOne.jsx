@@ -7,9 +7,10 @@ const TaskOne = () => {
   }
 
   return (
-    <div>
-      <h1>status:{isOn ? "On" : "Off"}</h1>
-      <button onClick={handleToggle}>{isOn ? " Turn Off":"Turn On" }</button>
+    <div className="  bg-amber-100  flex flex-col  justify-center items-center my-5">
+      <h1 className="p-4"> <strong>Task One</strong></h1>
+      <h1  className= {isOn ? "text-green-600" : "text-red-600"}>status: {isOn ? " On " : "Off"}</h1>
+      <button className=" bg-blue-500 p-2 border rounded " onClick={handleToggle}>{isOn ? " Turn Off":"Turn On" }</button>
     </div>
   )
 }
