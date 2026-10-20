@@ -88,11 +88,11 @@ const tasks = [
         description: " CRUD "  ,
         solution:"day_18.html"
     },{  day:19,
-        title:"Form Handling ",
+        title:"Toggle Add Update ",
         description: " Toggle Like  "  ,
         solution:"day_19.html"
     },{  day:20,
-        title:"Form Handling ",
+        title:"UseEffect Lifecycle" ,
         description: "Timer  "  ,
         solution:"day_20.html"
     }
