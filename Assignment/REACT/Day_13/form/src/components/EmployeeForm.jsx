@@ -26,7 +26,7 @@ const handleEdit=(emp,index)=>{
 }
   return (
     <>
-    <div className="flex flex-col gap-2 justify-center items-center">
+    <div className="flex flex-col border-2 bg-gray-200 gap-7 justify-center items-center h-100 ">
         <h1>Employee Details Form</h1>
         <input className="border" type="text" value={data.username} name="username" placeholder="enter your name" onChange={handleChange} />
         <input className="border" type="text" value={data.userdept} name="userdept" placeholder="enter your department" onChange={handleChange} />

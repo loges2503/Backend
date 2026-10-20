@@ -6,7 +6,7 @@ const Navbar = () => {
       <div>
             Forms
       </div>
-      <div>
+      <div className='mx-5'>
         
             <Link to="/employeeForm">Employee Form</Link>
             <Link to="/productForm">Product Form</Link>

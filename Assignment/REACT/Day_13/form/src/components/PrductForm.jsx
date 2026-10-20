@@ -27,7 +27,7 @@ const handleEdit=(pname,pindex)=>{
 
   return (
    <>
-   <div className="flex flex-col gap-2 justify-center items-center p-6">
+   <div className="flex flex-col border-2 bg-gray-200 h-100 gap-7 justify-center items-center p-6">
     <h1>Product select  Form</h1>
   <input className="border" type="text" name="productname" value={product.productname} placeholder="enter product name" onChange={handleChange}/>
     <input className="border" type="text" name="productprice" value={product.productprice} placeholder="enter product price" onChange={handleChange}/>
