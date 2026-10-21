@@ -95,6 +95,10 @@ const tasks = [
         title:"UseEffect Lifecycle" ,
         description: "Timer  "  ,
         solution:"day_20.html"
+    },{  day:21,
+        title:"Forms-CRUD" ,
+        description: "Fields Update,Show,Add,Edit,Delete  "  ,
+        solution:"day_21.html"
     }
 ];
 
