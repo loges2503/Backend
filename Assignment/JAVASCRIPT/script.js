@@ -99,6 +99,10 @@ const tasks = [
         title:"Forms-CRUD" ,
         description: "Fields Update,Show,Add,Edit,Delete  "  ,
         solution:"day_21.html"
+    },{  day:22,
+        title:"Login and Register" ,
+        description: "Login and Register Process "  ,
+        solution:"day_22.html"
     }
 ];
 
