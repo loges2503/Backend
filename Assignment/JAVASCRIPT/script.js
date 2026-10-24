@@ -103,6 +103,10 @@ const tasks = [
         title:"Login and Register" ,
         description: "Login and Register Process "  ,
         solution:"day_22.html"
+    },{  day:23,
+        title:"UseRef" ,
+        description: "Stop watch , OTP verification "  ,
+        solution:"day_22.html"
     }
 ];
 
