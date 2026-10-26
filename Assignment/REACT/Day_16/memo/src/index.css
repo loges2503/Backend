@@ -1,0 +1,29 @@
+ .theme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+ }
+
+ .btn{
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: blue;
+    padding: 8px;
+    width: 80px;
+    border: black;
+ }
+ .Light{
+   background-color: whitesmoke;
+   padding: 20px;
+   color: black;
+   text-align: center;
+
+ }
+ .Dark{
+   background-color: black;
+   padding: 20px;
+   color: white;
+   text-align: center;
+
+ }
