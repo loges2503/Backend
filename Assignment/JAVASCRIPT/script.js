@@ -106,7 +106,11 @@ const tasks = [
     },{  day:23,
         title:"UseRef" ,
         description: "Stop watch , OTP verification "  ,
-        solution:"day_22.html"
+        solution:"day_23.html"
+    },{  day:24,
+        title:"UseMemo" ,
+        description: "Tasks "  ,
+        solution:"day_24.html"
     }
 ];
 
