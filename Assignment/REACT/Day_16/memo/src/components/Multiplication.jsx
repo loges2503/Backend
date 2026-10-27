@@ -21,18 +21,19 @@ const Multiplication = () => {
 const double=useMemo(()=>{
     console.log("memo");
     
-    calculateDouble(number)
+ return   calculateDouble(number)
 },[number])
  
     
   return (
     <>
     <div>
-        <h1>Result : {double}</h1>
-        <input type="number" onChange={(e)=>setNumber(e.target.value)} /> <br /> <br />
+        <h1 className="heading">Number Multiplication</h1>
        <div className={theme ? "Light":"Dark"}>
         <h1>Switch Theme</h1>
-         <button className="btn" onClick={handletheme}>{theme ? "Light" : "Dark"}</button>
+         <button className="btn" onClick={handletheme}>{theme ? "Light" : "Dark"}</button> 
+        <h1>Result : {double}</h1>
+        <input type="number" onChange={(e)=>setNumber(e.target.value)} /> <br /> <br />
        </div>
     </div>
     </>
